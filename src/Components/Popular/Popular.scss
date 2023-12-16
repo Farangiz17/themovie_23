@@ -1,0 +1,213 @@
+.popular_container{
+  width: 1300px !important;
+}
+
+.popular_sarlavha {
+  display: flex;
+  justify-content: start;
+  width: 100%;
+  margin: 10px 15px;
+  gap: 15px;
+  h2 {
+    font-family: "Source Sans Pro";
+    font-weight: 600;
+    font-size: 24px;
+  }
+}
+
+.popularData_btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #000;
+  border-radius: 20px;
+  padding: 0 !important;
+  margin: 0 !important;
+  height: 32px;
+  p {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+}
+
+.onTV {
+  padding: 2px 8px;
+  font-weight: 500;
+  cursor: pointer;
+  color: #032541;
+}
+.onTV_hover {
+  cursor: pointer;
+  padding: 4px 18px;
+  font-weight: 500;
+  border-radius: 20px;
+  margin-right: 5px;
+  background-color: #032541;
+  p {
+    background-image: -webkit-linear-gradient(#89cda5, #50c2bf);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
+
+.inTheaters {
+  padding: 2px 5px;
+  font-weight: 500;
+  cursor: pointer;
+  color: #032541;
+}
+
+.inTheaters_hover {
+  cursor: pointer;
+  padding: 4px 18px;
+  font-weight: 500;
+  border-radius: 20px;
+  background-color: #032541;
+  p {
+    background-image: -webkit-linear-gradient(#89cda5, #50c2bf);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
+
+.box_row {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  overflow-x: auto;
+}
+
+.popular_img {
+  border-radius: 10px;
+  width: 150px;
+  height: 230px;
+  object-fit: cover;
+  background-size: cover;
+  background-position: center;
+}
+
+.box_popular {
+  position: relative;
+  margin: 15px;
+  width: 160px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+
+.foiz_p {
+  position: absolute;
+  top: 205px;
+  left: 10px;
+  background-color: #081c22;
+  padding: 10px;
+  border-radius: 50%;
+  width: 39px;
+  height: 39px;
+  color: #fff;
+  font-family: "Source Sans Pro";
+  font-weight: 600;
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .foizi_p {
+    font-size: 10px;
+  }
+  .border_p {
+    position: relative;
+    border: 2px solid #919526 !important;
+    border-radius: 50%;
+    padding: 4px;
+    &::after {
+      position: absolute;
+      content: "";
+      border: 2px solid #D2D531 !important;
+      border-radius: 50%;
+      padding: 15px;
+      left: -2px;
+      top: -2px;
+    }
+  }
+}
+
+.popular_card_name{
+    font-weight: 700;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.popular_card_date{
+    color: rgba(0, 0, 0, 0.6);
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.icon_circle_p {
+    position: absolute;
+    right: 8px;
+    top: 13px;
+    min-width: 1em;
+    min-height: 1em;
+    width: 21px;
+    height: 21px;
+    background-color: #f1ebe7a1;
+    box-sizing: border-box;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1px;
+    text-align: center;
+    cursor: pointer;
+    &:hover{
+      background-color: #01b4e4;
+    }
+    .dot {
+      margin-top: 17px;
+      width: 4px;
+      height: 4px;
+      border-radius: 50% !important;
+      background-color: #0000005d;
+    }
+  }
+
+  .list_ul_p{
+    position: absolute;
+    left: 53px;
+    width: 140px;
+    right: -20px;
+    top: 50px;
+    z-index: 111;
+    filter: blur(0px) !important;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    padding: 0 !important;
+    border-radius: 3px;
+    li{
+        list-style: none;
+        border-bottom: 1px solid #ccc;
+        width: 100%;
+        text-align: left;
+        padding: 10px;
+        font-weight: 600;
+        color: rgba(0,0,0,0.6);
+        background-color: transparent;
+        padding: 10px 20px;
+        font-size: 0.9em;
+        transition: all ease-in-out .2s;
+        &:hover{
+            cursor:pointer;
+            background-color: #ccc;
+        }
+        span{
+            margin-right: 3px;
+            color: #000;
+        }
+    }
+}

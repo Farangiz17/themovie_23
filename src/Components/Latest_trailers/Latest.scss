@@ -1,0 +1,76 @@
+.trailers_big{
+    // border: 1px solid red;
+    background-color: #201E54;
+    color: #fff;
+    margin-top: 23px;
+}
+
+.trailers_btn_group{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 380px;
+    padding: 20px 0;
+    h2{
+        font-size: 22px;
+    }
+    .button_tr{
+        border: 1px solid #37DBAF;
+        padding: 5px 0;
+        border-radius: 20px;
+    }
+}
+.span_on{
+    padding: 2px 1px;
+    font-weight: 500;
+    cursor:pointer;
+}
+.span_on_hover{
+    cursor:pointer;
+    padding: 7px 16px;
+    font-weight: 500;
+    border-radius: 20px;
+    background-image: linear-gradient(to left,#13cf9a, #B6FBCC);
+    color: #000;
+    margin-right: 5px;
+}
+
+.span_in{
+    cursor:pointer;
+    padding: 10px;
+    font-weight: 500;
+}
+
+.span_in_hover{
+    cursor:pointer;
+    padding: 7px 16px;
+    font-weight: 500;
+    border-radius: 20px;
+    background-image: linear-gradient(to left,#13cf9a, #B6FBCC);
+    color: #000;
+}
+
+.trailers_cards{
+    display: flex;
+    align-items: baseline;
+    flex-wrap: nowrap;
+    width: 100%;
+    overflow-x: scroll;
+}
+
+.cards{
+    margin: 20px;
+}
+
+.img_tr{
+    width: 320px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 15px;
+    position: relative;
+}
+
+.play{
+
+}

@@ -1,0 +1,202 @@
+.popular_container{
+    padding: 0 10px;
+}
+
+.col_3_width{
+    width: 280px;
+}
+
+.left_box{
+    width: 255px;
+}
+.left_box_name{
+    text-align: left;
+    padding: 20px 0 10px 0;
+}
+
+.sort{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #e3e3e3;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    border-radius: 8px;
+}
+
+.sort_title{
+    padding: 15px 15px 0 15px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.sort_result{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 10px 15px 17px 15px;
+    p{
+        margin: 0;
+        font-weight: 300;
+        font-size: 16px;
+        padding: 6px 4px;
+    }
+    .sort_popularity{
+        font-weight: 400 !important;
+        font-size: 14px;
+        background-color: #E4E7EB;
+        padding: 7px 12px;
+        width: 100%;
+        text-align: left;
+        border-radius: 0.25rem;
+    }
+}
+
+.fiter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #e3e3e3;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    padding: 12px 15px;
+    margin: 14px 0;
+    p{
+        font-weight: 600;
+        font-size: 18px;
+        margin: 0;
+    }
+}
+
+.Where{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #e3e3e3;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    padding: 12px 15px;
+    margin: 14px 0;
+    p{
+        font-weight: 600;
+        font-size: 18px;
+        margin: 0;
+    }
+}
+
+.search_btn{
+    font-size: 1em;
+    min-width: 260px;
+    background-color: #ECECEC;
+    padding: 10px;
+    border-radius: 25px;
+    width: 100%;
+    cursor:progress;
+    p{
+        margin: 0;
+        padding: 0;
+        color: rgba(0, 0, 0, 0.5);
+        font-weight: 600;
+        font-size: 19px;
+    }
+}
+
+
+
+.col_9_pop{
+    width: 1020px;
+}
+
+.row_popular{
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    flex-wrap: wrap;
+    margin-top: 70px;
+}
+.col_popular{
+    width: 180px;
+    padding: 0 12px;
+}
+
+.popular_card{
+    text-align: left;
+    max-width: 173px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    height: 377px !important;
+    margin-bottom: 25px;
+    position: relative;
+}
+
+.popular_Img{
+    width: 100%;
+    height: 262px !important;
+    max-height: 262px !important;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+
+.foiz_pop {
+    position: absolute;
+    top: 216px;
+    left: 10px;
+    background-color: #081c22;
+    padding: 10px;
+    border-radius: 50%;
+    width: 39px;
+    height: 39px;
+    color: #fff;
+    font-family: "Source Sans Pro";
+    font-weight: 600;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .foizi_pop {
+      font-size: 10px;
+    }
+    .border_pop {
+      position: relative;
+      border: 2px solid #1e4129 !important;
+      border-radius: 50%;
+      padding: 4px;
+      &::after {
+        position: absolute;
+        content: "";
+        border: 2px solid #21d07a !important;
+        border-radius: 50%;
+        padding: 15px;
+        left: -1px;
+        top: -1px;
+      }
+    }
+  }
+  
+  .popular_card_name{
+    font-weight: 700;
+    font-size: 16px;
+    padding: 8px 8px 0 8px;
+    &:hover{
+        color: #01b4e4;
+    }
+  }
+
+  .popular_card_date{
+    color: rgba(0, 0, 0, 0.65);
+    font-weight: 400;
+    font-size: 14px;
+    padding: 0 8px;
+  }
+
+  .icon_circle_popular{
+    top: 8px;
+    left: 126px;
+    &:hover{
+        background-color: #01b4e4;
+    }
+  }
